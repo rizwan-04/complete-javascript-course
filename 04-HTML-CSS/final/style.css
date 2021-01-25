@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -53,4 +53,36 @@ a {
 
 #your-name h2 {
   color: olivedrab;
+} */
+body {
+  background-color: rgb(80, 79, 192);
+  font-family: serif;
+  font-size: 20px;
+  padding: 25px;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+h2 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.first-para {
+  color: red;
+}
+#your-name {
+  background-color: rgb(136, 136, 79);
+  border: 5px solid #444;
+  width: 400px;
+  padding: 25px;
+  margin-top: 25px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+#img-robot {
+  height: 250;
 }
